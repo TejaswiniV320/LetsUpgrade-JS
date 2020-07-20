@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+num1 <input type="number" name="num1" id='num1'><br>
+       <button onclick="sqrt(document.getElementById('num1').value)">Calculate comission</button>
+      
+	<script>
+	
+  function sqrt(n1){
+  debugger;
+    var com=0;
+	var c=parseInt(n1);
+		switch(c) {
+		  case c<=5000 :
+			com=com+(c)*2*(1/100);
+			console.log(com);
+			break;
+		  case c<=10000 :
+			console.log("yes");
+			com=com+(c)*5*(1/100);
+			console.log(com);
+			break;
+		  case  c<=20000 :
+			com=com+(c)*7*(1/100);
+			console.log(com);
+			break;
+		  case c>20000 :
+			com=com+(c)*10*(1/100);
+			console.log(com);
+			break;
+		  default :
+		    
+			
+		}
+		
+	}
+ 
+    </script>
+
+</body>
+</html>

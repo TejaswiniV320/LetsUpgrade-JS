@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+num1 <input type="number" name="num1" id='num1'><br>
+num2 <input type="number" name="num2" id='num2'><br>
+  <button onclick="add(document.getElementById('num1').value,document.getElementById('num2').value)">Add</button>
+  <button onclick="sub(document.getElementById('num1').value,document.getElementById('num2').value)">Sub</button>
+  <button onclick="mul(document.getElementById('num1').value,document.getElementById('num2').value)">Mul</button>
+  <button onclick="div(document.getElementById('num1').value,document.getElementById('num2').value)">Div</button>
+  <button onclick="sqrt(document.getElementById('num1').value)">Sqrt</button>
+  <button onclick="per(document.getElementById('num1').value,document.getElementById('num2').value)">Per</button>
+	<script>
+	    let add=(n1,n2)=>alert(Number(n1)+Number(n2));
+        let sub=(n1,n2)=>alert(Number(n1)-Number(n2));
+        let mul=(n1,n2)=>alert(Number(n1)*Number(n2));
+        let div=(n1,n2)=>alert(Number(n1)/Number(n2));
+        let sqrt=(n1)=>alert(Math.sqrt(Number(n1)));
+        let per=(n1,n2)=>alert((Number(n1)*10)/Number(n2));
+    </script>
+
+</body>
+</html>

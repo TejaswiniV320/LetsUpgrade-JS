@@ -1,0 +1,20 @@
+Explain with examples the remaining methods of String and Array.
+
+Methods of arrays:
+
+toString()
+join()
+pop()
+push()
+splice()
+concat()
+
+Methods of strings:
+ 
+indexOf()
+lastIndexOf()
+search()
+slice()
+substring() 
+replace()
+

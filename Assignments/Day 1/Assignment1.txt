@@ -1,0 +1,22 @@
+1.Explore and explain the various methods in console functions.
+
+log() - this logs into the console of web browser ,
+error() - this logs error messeges into the console ,
+warn() - this logs warnings messeges into the console ,
+clear() - this clears all the logs of the console,
+table() -  this makes tables in the console using inputs such as arrays etc,
+time()and timeEnd() - these are used to calculate the time of start and time of end.
+
+
+2.Write the difference between var, let and const with code examples.
+
+var is used to create global variable and it is confined to function.
+let is usedto create local variables and it is confined to a specific block.
+const must be initialized during declaration and cannot be updated to new value like var or let.
+
+
+
+3.Write a brief intro on available data types in Javascript.
+
+Few data types in javascript are String,Boolean,bigInt,undefined,objects,etc.
+
