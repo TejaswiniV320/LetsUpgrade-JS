@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+      
+	<script>
+	var arr=[];
+	do{
+	var v=prompt("enter a positive number");
+	if(v){
+	arr.push(Number(v));}
+	}while(v);
+	let a2=arr.filter(e=>e%2!=0);
+	let a3=a2.map(e=>e**3);
+	console.log(a3);
+    </script>
+
+</body>
+</html>
