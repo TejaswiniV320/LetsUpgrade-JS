@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body>
+<h1 id='he'> Heading   </h1>
+<p id='t'> <p>  
+
+<button id="b">button</button>  
+	  
+	<script>
+		var n=prompt("Name","Unknown");
+		var he=document.getElementById('he');
+		he.innerHTML +=`Welcome ${n}`;
+		
+		var t=document.getElementById('t');
+		function timer(){
+		var date=new Date();
+		var time= date.toLocaleTimeString();
+		t.innerHTML =`${time}`;
+		};
+		setInterval(timer,1000);
+		
+		var but = document.getElementById('b');
+		but.onclick=()=>{
+			if(but.className=='set'){
+				but.className='';
+				document.body.style.backgroundColor='white';
+				document.body.style.color='black';
+				
+			}else{
+				but.className='set';
+				document.body.style.backgroundColor='black';
+				document.body.style.color='white';
+				
+			}
+		}
+		
+    </script>
+
+</body>
+</html>
+
